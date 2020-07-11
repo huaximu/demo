@@ -20,9 +20,10 @@ public class UserController {
         user.setAge(33);
         ret.put("user",user);
 
-
         return ret;
+    }
+    public String test2(){
 
-
+        return "success";
     }
 }
